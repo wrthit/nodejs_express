@@ -1,0 +1,36 @@
+{
+  "name": "nodejs_express",
+  "version": "1.0.0",
+  "description": "knowledge base app",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "node app"
+  },
+  "author": "Joe Hicks",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.0.0",
+    "css-loader": "^1.0.0",
+    "exports-loader": "^0.6.4",
+    "module": "^1.2.5",
+    "node-loader": "^0.6.0",
+    "node-sass": "^4.9.2",
+    "postcss-loader": "^2.1.6",
+    "precss": "^3.0.0",
+    "require_optional": "^1.0.1",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.1.2",
+    "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "mongoose": "^5.2.4",
+    "popper.js": "^1.14.3",
+    "pug": "^2.0.3"
+  }
+}
